@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="pt-br" Xmanifest="appcache.manifest">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Horário de Onibus</title>
+    <meta name="description" content="WebApp de exemplo">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="img/icon.png">
+    <meta name="theme-color" content="#333">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Eucaliptos">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon-precomposed" href="img/icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="img/icon.png">
+    <meta name="msapplication-TileColor" content="#333">
+
+    <script>
+    if (window.location.protocol != "https:" && window.location.hostname == "alexandrowillianhervis.github.io")
+        window.location.href = "https:" + window.location.href.substring(window.location.protocol.length);
+    </script>
+
+</head>
+<body>
+<div class="current-page">
+
+
+<main class="lojas">
+
+<div class="topo-fixo z-depth-1">
+    <div class="valign-wrapper amber darken-2 white-text">
+        <div>
+            <a href="index.html"><i class="material-icons waves-effect waves-light waves-circle">arrow_back</i></a>
+        </div>
+
+        <h5 class="titulo">Selecione o Dia da Semana</h5>
+
+        <div>
+            <i class="material-icons waves-effect waves-light
+                      waves-circle dropdown-button"
+                data-activates="submenu" data-gutter="5"
+                data-constrainwidth="false">
+                    more_vert
+            </i>
+
+            <ul id="submenu" class="dropdown-content">
+                
+                <li><a class="black-text" href="index.html">Entrada</a></li>
+                <li><a class="black-text" href="https://github.com/AlexandroWillianHervis/EucaliptosWebApp">Código Fonte</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+</div>
+
+
+        <div id="moda" class="section">
+        
+                    <div class="collection">
+                
+                <a class="collection-item waves-effect black-text" 
+                   href="dias-uteis.html">Dias Úteis</a>
+            
+                        </div>
+                        <div class="collection">
+                
+                <a class="collection-item waves-effect black-text" 
+                   href="sabados.html">Sábados </a>
+            
+                        </div>
+                            <div class="collection">
+                
+                <a class="collection-item waves-effect black-text" 
+                   href="domingos.html">Domingos e Feriados</a>
+            
+                        </div>
+                        
+                 
+    </div>
+    
+
+</main>
+
+</div><!--/.current-page-->
+
+<script src="js/vendor/jquery.min.js"></script>
+<script src="js/vendor/materialize-0.97.0.min.js"></script>
+<script src="js/spa.js"></script>
+<script src="js/main.js"></script>
+<script src="js/install.js"></script>
+
+<script src="js/pagamento.js"></script>
+<script src="js/vendor/quagga.min.js"></script>
+<script src="js/barcode.js"></script>
+
+</body>
+</html>
+
