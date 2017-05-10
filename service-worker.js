@@ -1,12 +1,12 @@
 
 var files = [
   "README.md",
-  "appcache.manifest	",
-  "dias-uteis.html	",
-  "domingos.html	",
-  "index.html	",
-  "manifest.json	",
-  "menu.html	",
+  "appcache.manifest",
+  "dias-uteis.html",
+  "domingos.html",
+  "index.html",
+  "manifest.json",
+  "menu.html",
   "sabados.html	",
   "service-worker.js",
   "css/main.css",
